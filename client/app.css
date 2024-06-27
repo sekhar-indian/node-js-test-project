@@ -1,0 +1,17 @@
+.main-heading{
+    text-align:center;
+    color:orange;
+}
+label{
+    color:orange;
+}
+body{
+    background-color: black;
+}
+.secod-form-container{
+    text-align: right;
+    margin: 50px;
+}
+.first-form-container{
+    margin: 50px;
+}

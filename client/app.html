@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<hml>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="app.css">
+    </head>
+
+    <body>
+        <h2 class="main-heading">Add a Reviews</h2>
+        <form id="d" class="first-form-container" onsubmit="firstForm(event)">
+            <label>Company Name</label><br>
+            <input type="text" name="comapny" ><br>
+            <label>Pors</label><br>
+            <textarea type="text" name="pros"></textarea><br>
+            <label>cons</label><br>
+            <textarea type="text" name="cons"></textarea><br><br>
+            <label>Rating</label>
+            <input type="number" name="rating" ><br>
+            <button type="submit">post</button>
+        </form>
+
+        <form class="secod-form-container">
+            <label>Company Name</label>
+            <input type="text" >
+            <button type="submit">submit</button>
+            <h3>company Reviews</h3>
+        </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>    
+    </body>
+</hml>
