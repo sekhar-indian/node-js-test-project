@@ -1,6 +1,9 @@
 .main-heading{
     text-align:center;
     color:orange;
+    padding: 10px;
+    background-color: aqua;
+   
 }
 label{
     color:orange;
@@ -14,4 +17,22 @@ body{
 }
 .first-form-container{
     margin: 50px;
+}
+#dataelement{
+    
+    
+    margin: 50px;
+}
+h1{
+    color: rgb(46, 28, 186);
+    text-align: center;
+}
+
+.review-container{
+    color: white;
+    border: solid orange;
+}
+
+.inpu-item{
+    
 }

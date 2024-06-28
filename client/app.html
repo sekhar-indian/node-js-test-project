@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<hml>
+<html>
     <head>
         <title></title>
         <link rel="stylesheet" href="app.css">
@@ -9,7 +9,7 @@
         <h2 class="main-heading">Add a Reviews</h2>
         <form id="d" class="first-form-container" onsubmit="firstForm(event)">
             <label>Company Name</label><br>
-            <input type="text" name="comapny" ><br>
+            <input type="text" class="inpu-item" name="comapny" ><br>
             <label>Pors</label><br>
             <textarea type="text" name="pros"></textarea><br>
             <label>cons</label><br>
@@ -19,14 +19,18 @@
             <button type="submit">post</button>
         </form>
 
-        <form class="secod-form-container">
+        <form class="secod-form-container " onsubmit="secondForm(event)">
             <label>Company Name</label>
-            <input type="text" >
+            <input type="text" name="company">
             <button type="submit">submit</button>
-            <h3>company Reviews</h3>
+            <h3>company Reviews</h3><br>
+           
         </form>
+        <div id="dataelement">
+
+        </div>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>    
     </body>
-</hml>
+</html>
