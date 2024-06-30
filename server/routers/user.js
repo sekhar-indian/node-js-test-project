@@ -7,4 +7,4 @@ router.post('/companyreview',rating.companyreview);
 // router.get('/',ra)
 
 
-module.exports=router;
+module.exports=router; 

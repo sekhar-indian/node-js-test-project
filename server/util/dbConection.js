@@ -4,3 +4,4 @@ const sequelize=new Sequelize('company_reviews','root','1122',{
   dialect: 'mysql'
 })
 module.exports=sequelize;
+ 

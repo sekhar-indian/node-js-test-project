@@ -15,6 +15,6 @@ const Review=sequelize.define('comments',{
         allowNull:false
     }
 
-})
+}) 
 
 module.exports=Review;

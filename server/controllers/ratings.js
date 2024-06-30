@@ -27,7 +27,7 @@ exports.data= async (req,res,next)=>{
     console.log(err)
    }
 
-}
+} 
 
 
 

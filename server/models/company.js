@@ -9,7 +9,7 @@ const company=sequelize.define('company',{
         allowNull:false,
         unique:true 
     },
-   
+    
 })
 
 module.exports=company;

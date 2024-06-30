@@ -18,7 +18,7 @@ app.use(bodyparser.json())
 
 //routers here
 app.use(user);
-
+ 
 //databace conection
 Review.belongsTo(Company,{constraints:true,onDelete:'CASCADE'});
 Company.hasMany(Review);
