@@ -11,11 +11,12 @@ async function firstForm(event){
         rating:event.target.rating.value
     }
     console.log(data)
-
-    await axios
-        .post('http://localhost:3000/datapost',data)
-        .then(res=>console.log('ok'))
-        .catch(err=>console.log('err'))
+    try{
+      const res=  await axios.post('http://localhost:3000/datapost',data);
+      event.target.reset();
+    }catch(err){
+        console.log(err)
+    }
 }
 
 async function secondForm(event){
@@ -29,7 +30,7 @@ async function secondForm(event){
     .post(`http://localhost:3000/companyreview`,companyname)
     .then(re=>{
         let e=document.getElementById('dataelement');
-        e.innerHTML=`<h1 id=${re.data.foundCompany.id}> ${re.data.foundCompany.company}</h1>`;
+        e.innerHTML=`<h1 id=${re.data.foundCompany.id} class='data-headinh'> ${re.data.foundCompany.company}</h1>`;
         let t=document.createElement('div')
         for(let i=0;i<re.data.companyReview.length;i++){
             let review = re.data.companyReview[i];

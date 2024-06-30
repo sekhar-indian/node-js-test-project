@@ -1,15 +1,20 @@
 .main-heading{
     text-align:center;
-    color:orange;
+    color:rgb(255, 255, 255);
     padding: 10px;
-    background-color: aqua;
    
 }
 label{
-    color:orange;
+    font-family: roboto;
+    color:rgb(10, 65, 128);
+    font-weight:900;
 }
 body{
-    background-color: black;
+    /* background-color: rgb(41, 40, 40); */
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+
+    height: 100vh;
+    margin: 0;
 }
 .secod-form-container{
     text-align: right;
@@ -23,16 +28,49 @@ body{
     
     margin: 50px;
 }
-h1{
+/* h1{
     color: rgb(46, 28, 186);
     text-align: center;
-}
+} */
 
 .review-container{
     color: white;
-    border: solid orange;
+    border-bottom: solid orange;
+    margin-left: 40%;
 }
 
 .inpu-item{
-    
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin:10px;
+    border: none;
+}
+.button-item{
+    height: 35px;
+    border-radius: 40px;
+    width: 75px;
+    border: none;
+    font-family: roboto;
+    background-color: rgb(62, 62, 195);
+    color:white;
+}
+.first-button-item{
+    margin:10px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(62, 62, 195);
+
+}
+
+.inpu-itemt{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.data-headinh{
+    color:rgb(10, 65, 128);
+    margin-left: 40%;
+    font-family: roboto;
+
 }

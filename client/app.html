@@ -6,23 +6,23 @@
     </head>
 
     <body>
-        <h2 class="main-heading">Add a Reviews</h2>
+        <h2 class="main-heading">Add A Reviews</h2>
         <form id="d" class="first-form-container" onsubmit="firstForm(event)">
             <label>Company Name</label><br>
             <input type="text" class="inpu-item" name="comapny" ><br>
             <label>Pors</label><br>
-            <textarea type="text" name="pros"></textarea><br>
-            <label>cons</label><br>
-            <textarea type="text" name="cons"></textarea><br><br>
-            <label>Rating</label>
-            <input type="number" name="rating" ><br>
-            <button type="submit">post</button>
+            <textarea rows="5" cols="35" class="inpu-itemt" type="text"name="pros"></textarea><br>
+            <label>Cons</label><br>
+            <textarea  rows="5" cols="35" class="inpu-itemt" type="text"  name="cons"></textarea><br>
+            <label>Rating</label><br>
+            <input type="number" class="inpu-item" min="1" max="5" name="rating" ><br>
+            <button type="submit"  class="button-item first-button-item ">post</button>
         </form>
 
         <form class="secod-form-container " onsubmit="secondForm(event)">
             <label>Company Name</label>
-            <input type="text" name="company">
-            <button type="submit">submit</button>
+            <input type="text" class="inpu-item" name="company">
+            <button type="submit" class="button-item">submit</button>
             <h3>company Reviews</h3><br>
            
         </form>
